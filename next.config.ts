@@ -1,7 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // チュートリアルにはあるが、エラーが出るのでコメントアウト
+  // experimental: {
+  //   ppr: 'incremental'
+  // }
 };
 
 export default nextConfig;
